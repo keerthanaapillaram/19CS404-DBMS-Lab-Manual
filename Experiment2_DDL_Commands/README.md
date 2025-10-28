@@ -258,6 +258,3 @@ INSERT INTO Products(Name,Category,Price,Stock) VALUES ('Smartphone','Electronic
 ## RESULT
 Thus, the SQL queries to implement different types of constraints and DDL commands have been executed successfully.
 
-## Module Completion
-![image](https://github.com/user-attachments/assets/31010aa8-f7dd-447a-9bf1-f6f53a58517c)
-
