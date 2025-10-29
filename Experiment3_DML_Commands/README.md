@@ -67,7 +67,8 @@ UPDATE products SET product_name = 'Premium Bread' WHERE product_id = 5;
 
 **Output:**
 
-![alt text](Images/image.png)
+<img width="1453" height="228" alt="image" src="https://github.com/user-attachments/assets/bad7fd71-59d1-44b1-8441-a42c867d8b60" />
+
 
 **Question 2**
 ---
@@ -95,7 +96,8 @@ UPDATE EMPLOYEES SET salary = salary + 500, email = 'updated' WHERE job_id = 'SA
 
 **Output:**
 
-![alt text](Images/image-1.png)
+<img width="1224" height="319" alt="image" src="https://github.com/user-attachments/assets/e16fb039-2955-49f1-98d9-5bdae0604128" />
+
 
 **Question 3**
 ---
@@ -121,7 +123,8 @@ UPDATE products SET reorder_lvl = 40 WHERE category = 'Grocery';
 
 **Output:**
 
-![alt text](Images/image-2.png)
+<img width="1274" height="182" alt="image" src="https://github.com/user-attachments/assets/602f2ab0-e386-4de1-8a5a-a875f81261ef" />
+
 
 **Question 4**
 ---
@@ -137,7 +140,8 @@ DELETE FROM Surgeries WHERE surgery_id = 3;
 
 **Output:**
 
-![alt text](Images/image-3.png)
+<img width="1114" height="311" alt="image" src="https://github.com/user-attachments/assets/a95ab238-e5bd-4219-9a69-f1caaedea07d" />
+
 
 **Question 5**
 ---
@@ -145,14 +149,16 @@ Write a SQL query to Delete customers with 'GRADE' 3 or 'AGENT_CODE' 'A008' whos
 
 Sample table: Customer
 
-![alt text](Images/image-4.png)
+<img width="1202" height="123" alt="image" src="https://github.com/user-attachments/assets/f575399d-805b-4a7e-8469-a09047f0c2f8" />
+
 
 ```sql
 DELETE FROM Customer WHERE (GRADE = 3 OR AGENT_CODE = 'A008') AND OUTSTANDING_AMT < 5000;
 ```
 
 **Output:**
-![alt text](Images/image-5.png)
+<img width="1171" height="248" alt="image" src="https://github.com/user-attachments/assets/57fcdf2a-3d27-4a4f-b445-83302697b298" />
+
 
 **Question 6**
 ---
@@ -174,7 +180,8 @@ SELECT * FROM salesman WHERE name LIKE 'N__L%';
 
 **Output:**
 
-![alt text](Images/image-6.png)
+<img width="1059" height="307" alt="image" src="https://github.com/user-attachments/assets/71dc579e-61e2-4cdf-9032-c9a076969126" />
+
 
 **Question 7**
 ---
@@ -202,7 +209,9 @@ FROM calculations;
 
 **Output:**
 
-![alt text](Images/image-7.png)
+<img width="768" height="405" alt="image" src="https://github.com/user-attachments/assets/59f20ba7-3485-4061-8ee6-327be80d4028" />
+
+
 
 **Question 8**
 ---
@@ -223,7 +232,8 @@ SELECT customer_id, cust_name, city, grade, salesman_id FROM customer WHERE grad
 
 **Output:**
 
-![alt text](Images/image-8.png)
+<img width="1116" height="350" alt="image" src="https://github.com/user-attachments/assets/656e72e6-1f44-44d7-979b-6d817e160cc0" />
+
 
 **Question 9**
 ---
@@ -256,7 +266,8 @@ WHERE discounted_price > 100;
 
 **Output:**
 
-![alt text](Images/image-9.png)
+<img width="1179" height="217" alt="image" src="https://github.com/user-attachments/assets/bfada733-e3c4-4fb0-9a2b-0cd69095da5c" />
+
 
 **Question 10**
 ---
@@ -287,7 +298,8 @@ WHERE age > 50;
 
 **Output:**
 
-![alt text](Images/image-10.png)
+<img width="968" height="556" alt="image" src="https://github.com/user-attachments/assets/cdfdfea4-25c0-4156-bf50-3e8848aebf46" />
+
 
 ## RESULT
 Thus, the SQL queries to implement DML commands have been executed successfully.
