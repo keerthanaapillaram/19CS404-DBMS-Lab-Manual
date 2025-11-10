@@ -65,8 +65,8 @@ SELECT * FROM employee_log;
 - A new entry is added to the employee_log table each time a new record is inserted into the employees table.
 
 *Output:*
+<img width="1362" height="267" alt="image" src="https://github.com/user-attachments/assets/b0530c11-ed65-499f-b359-72901d4b424f" />
 
-![alt text](Images/image.png)
 ---
 
 ## 2. Write a trigger to prevent deletion of records from a sensitive table.
@@ -100,7 +100,8 @@ DELETE FROM sensitive_data WHERE id = 1;
 
 *Output:*
 
-![alt text](Images/image-2.png)
+<img width="893" height="172" alt="image" src="https://github.com/user-attachments/assets/d25e1d66-9f27-4d01-bec3-0d1fa8a1e72e" />
+
 ---
 
 ## 3. Write a trigger to automatically update a last_modified timestamp.
@@ -137,7 +138,8 @@ SELECT product_id, product_name, price, last_modified FROM products WHERE produc
 
 *Output:*
 
-![alt text](Images/image-3.png)
+<img width="828" height="221" alt="image" src="https://github.com/user-attachments/assets/f21e9cce-28f3-4500-aae4-c5eb674f5fd4" />
+
 
 ---
 
@@ -181,7 +183,8 @@ SELECT * FROM audit_log WHERE table_name = 'CUSTOMER_ORDERS';
 
 *Output:*
 
-![alt text](Images/image-4.png)
+<img width="687" height="222" alt="image" src="https://github.com/user-attachments/assets/f771f6ae-4895-4578-93ed-6050d9e1efe3" />
+
 
 ---
 
@@ -210,9 +213,11 @@ INSERT INTO employees (emp_id, emp_name, salary) VALUES (102, 'Jane Smith', 3500
 
 *Output:*
 
-![alt text](Images/image-5.png)
+<img width="1262" height="261" alt="image" src="https://github.com/user-attachments/assets/612b3a39-eaf8-4dd2-8a01-0fe1aba05915" />
+
 
 
 ## RESULT
 Thus, the PL/SQL trigger programs were written and executed successfully.
+
 
